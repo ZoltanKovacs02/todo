@@ -93,9 +93,11 @@ li .checked{
 .newTodo{
   margin-left: 50px;
   margin-bottom: 15px;
- align-items: center;
- position: relative;
-max-width: 70%;
+  align-items: center;
+  position: relative;
+  max-width: 70%;
+  border: 2px solid hsl(41, 82%, 74%);
+  border-radius: 5px;
 
 }
 .newTodo::after {
