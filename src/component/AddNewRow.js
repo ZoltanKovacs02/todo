@@ -27,7 +27,9 @@ export const AddTask = ({onAdd}) => {
 
     return (
         <form className="add-task" onSubmit={onSubmit}>
-            <div className="add-task-text">
+            <div className="add-task-text">Add new toodo</div>
+
+            <div className="add-task-task">
                 <label>Task:</label>
                 <input type='text' placeholder='AddTask' value={title} onChange={(e)=>setText(e.target.value)} />
 

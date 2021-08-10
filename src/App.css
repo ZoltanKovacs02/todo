@@ -96,7 +96,7 @@ li .checked{
   align-items: center;
   position: relative;
   max-width: 70%;
-  border: 2px solid hsl(41, 82%, 74%);
+  border: 2px solid hsl(40, 85%, 8%);
   border-radius: 5px;
 
 }
@@ -111,24 +111,36 @@ li .checked{
 .newTodo input .textInput{
   width: 280px;
   height: 20px;
-  
+  margin: 5px;
+
 }
 .newTodo input .dataInput{
   width: 150px;
   height: 20px;
+  margin: 5px;
 }
 
 .add-task-text{
-  width: 35%;
-  display: inline;
+ 
+  margin: 10px;
 
 }
+.add-task-task{
+  width: 35%;
+  display: inline;
+  margin: 20px;
+
+}
+
 .add-task-submit{
   position: absolute;
   right: 0;
   bottom: 0px;
+  margin: 20px;
+
 }
 .add-task-date{
+  margin: 20px;
 
 }
 

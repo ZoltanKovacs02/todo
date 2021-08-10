@@ -123,7 +123,6 @@ function App() {
 
         {showAddTask  &&   <div className="newTodo">  
             
-           <label>Add new toodo</label>
            <AddTask onAdd={addTask}/>
           
           </div> 
